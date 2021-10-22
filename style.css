@@ -11,10 +11,10 @@ html,body{
     grid-template-columns: 1fr 2fr 2fr;
     /*a quantidade de fr define a quantidade de colunas*/
     grid-template-rows: 10vh 70vh 10vh 10vh;
-    grid-template-areas: "a h h"                 
-                         "a m m"
-                         "a m m"   
-                         "a f f"
+    grid-template-areas: "h h h"                 
+                         "m a a"
+                         "m a a"   
+                         "f f f"
     /*
     grid-row-gap: 2px;
     Espaço entre as linhas
@@ -43,6 +43,11 @@ footer{
 }
 footer h1{
     text-align: center;
-    
+}
+.rectangle{
+    width: 50px;
+    height: 100px;
+    background-color: crimson;
+    border-left: 4px;
 
 }
